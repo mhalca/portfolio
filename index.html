@@ -16,11 +16,12 @@
 </head>
 <body>
     <div id="home" class="section scrollspy">
+        <div id="header">
     <!--NAVIGATION BAR-->
         <nav class="black navigation">
         <div class="nav-wrapper">
             <a class="brand-logo center"><img src="img/logo-nav.png" style="width: 150px; height: 70px;"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
             <ul class="left hide-on-med-and-down">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -40,34 +41,35 @@
                 </ul>
         </div>
         </nav>
-        <ul class="sidenav black" id="mobile-demo">
-            <li><a href="#home" class="white-text">Home</a></li>
-            <li><a href="#about" class="white-text">About</a></li>
-            <li><a href="#portfolio" class="white-text">Portfolio</a></li>
-            <li><a href="#contact" class="white-text">Contact</a></li>
+        <ul class="sidenav red accent-4" id="mobile-demo">
+            <li><a href="#home" class="white-text" style="font-weight: 600;">Home</a></li>
+            <li><a href="#about" class="white-text" style="font-weight: 600;">About</a></li>
+            <li><a href="#portfolio" class="white-text" style="font-weight: 600;">Portfolio</a></li>
+            <li><a href="#contact" class="white-text" style="font-weight: 600;">Contact</a></li>
         </ul>
         <button id="scrollToTopButton" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
         <!--HOME-->
-        <div id="header">
+        
             <div class="container">
-                <div style="height: 450px;"></div>
-                        <p style="font-size: 15px; font-weight: 500;">Web Developer/Graphic Designer</p>
-                        <h1 style="font-size: 60px; font-weight: 600;">Hi, I'm <span class="red-text text-accent-4" style="font-size: 60px; font-weight: 600;"> Mary </span><br> 
+                <div class="header-text">
+                    <p>Web Developer/Graphic Designer</p>
+                    <h1>Hi, I'm <span>Mary</span><br> 
                         Princess Alca.</h1>
-                        <a href="Alca-CV.pdf" download="Alca-CV.pdf" class="download-button">Download CV</a>
+                    <a href="Alca-CV.pdf" download="Alca-CV.pdf" class="download-button">Download CV</a>
+                </div>
         </div>
         </div>
         <!--ABOUT-->
         <div id="about" class="section scrollspy">
         <div class="row">
-            <div class="col s6">
+            <div class="col s12 m6 l6">
                 <div class="container">
                 <img src="img/gradpic.png" class="materialboxed responsive-img about-img">
                 </div>
             </div>
-        <div class="col s6">
-            <h3 class="left sub-title">About Me</h3><div style="height: 100px;"></div>
-            <p class="left">I'm a recent graduate of BS in Information Technology at City College of Calamba. I am passionate about technology and its potential to transform the world we live in. Below, you'll find details about my skills, experiences, educational background and awards.</p>
+        <div class="col s12 m6 l6">
+            <h3 class="sub-title">About Me</h3>
+            <p class="justify">I'm a recent graduate of BS in Information Technology at City College of Calamba. I am passionate about technology and its potential to transform the world we live in. Below, you'll find details about my skills, experiences, educational background and awards.</p>
 
             <ul class="tabs" style="background-color: transparent;" class="right hide-on-med-and-down">
                 <li class="tab col s3">
@@ -153,7 +155,7 @@
             <div class="container">
                 <h3 class="sub-title">Portfolio</h3>
                 <div class="row">
-                    <div class="col s4">
+                    <div class="col s12 m4 l4">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/cwd.png">
@@ -169,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s4">
+                    <div class="col s12 m4 l4">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/graphic.png">
@@ -187,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s4">
+                    <div class="col s12 m4 l4">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/wdccc.png">
@@ -213,7 +215,7 @@
         <div id="contact" class="section scrollspy">
             <div class="container">
                 <div class="row">
-                    <div class="col s5">
+                    <div class="col s12 m5">
                     <div class="contact-left">
                         <h1 class="sub-title">Contact Me</h1>
                         <p style="margin-top: 30px;"><i class="fa-solid fa-paper-plane"></i> mhalca@yahoo.com</p>
@@ -239,7 +241,7 @@
                     </div>
                 </div>
 
-                <div class="col s7">
+                <div class="col s12 m7">
                     <div style="height: 100px;"></div>
                     <div class="contact-right">
                         <form>
@@ -264,7 +266,7 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav({
-                edge: 'left',
+                edge: 'right',
             });
         });
     </script>
