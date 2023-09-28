@@ -49,14 +49,14 @@
     <div id="colors" class="section scrollspy">
     <br>
     <div class="row">
-        <div class="col s12 m5 l5">
+        <div class="col s12 m5">
             <h4 class="center white-text" style="font-weight: 500;">Colors & <span class="red-text text-accent-4">Typography</span></h4>
             <br>
             <div class="container">
                 <iframe src="projects/Colors & Typography.pdf" width="100%" height="300px" frameborder="0"></iframe>
             </div>
         </div>
-        <div class="col s12 m5 l5">
+        <div class="col s12 m5">
             <div class="container">
                 <br><br><br><br>
                 <div class="card-panel" style="border-radius: 8%;">
@@ -71,7 +71,7 @@
     <!--Table & Media-->
     <div id="tablemedia" class="section scrollspy">
     <div class="row">
-        <div class="col s12 m5 l5">
+        <div class="col s12 m5">
             <h4 class="center red-text text-accent-4" style="font-weight: 500;">Table & <span class="white-text">Media CSS</span></h4>
             <br>
             <div class="container">
@@ -181,25 +181,27 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!--Scroll Init-->
     <script>
         function scrollToTop() {
             window.scrollTo({
                 top: 0,
-                behavior: 'smooth' // For smooth scrolling
+                behavior: 'smooth'
             });
         }</script>
     
-        <script>
+    <!--Scroll Init Hide when it's above the screen-->
+    <script>
         window.addEventListener('scroll', function() {
             var scrollToTopButton = document.getElementById('scrollToTopButton');
             
-            if (window.scrollY >= 300) { // Adjust the scroll position as needed
+            if (window.scrollY >= 300) {
                 scrollToTopButton.style.display = 'block';
             } else {
                 scrollToTopButton.style.display = 'none';
             }
         });
-        </script>
+    </script>
 
 </body>
 </html>
