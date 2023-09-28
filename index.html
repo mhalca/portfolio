@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8da1984590.js" crossorigin="anonymous"></script>
+    <title>Riri Portfolio</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+    <div id="home" class="section scrollspy">
+    <!--NAVIGATION BAR-->
+        <nav class="black navigation">
+        <div class="nav-wrapper">
+            <a class="brand-logo center"><img src="img/logo-nav.png" style="width: 150px; height: 70px;"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
+            <ul class="left hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="https://www.linkedin.com/in/mary-princess-alca/" target="_blank" class="white-text">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/mhalca" target="_blank" class="white-text">
+                        <i class="fa-brands fa-github"></i></a>
+                </li>
+                </ul>
+        </div>
+        </nav>
+        <ul class="sidenav black" id="mobile-demo">
+            <li><a href="#home" class="white-text">Home</a></li>
+            <li><a href="#about" class="white-text">About</a></li>
+            <li><a href="#portfolio" class="white-text">Portfolio</a></li>
+            <li><a href="#contact" class="white-text">Contact</a></li>
+        </ul>
+        <button id="scrollToTopButton" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+        <!--HOME-->
+        <div id="header">
+            <div class="container">
+                <div style="height: 450px;"></div>
+                        <p style="font-size: 15px; font-weight: 500;">Web Developer/Graphic Designer</p>
+                        <h1 style="font-size: 60px; font-weight: 600;">Hi, I'm <span class="red-text text-accent-4" style="font-size: 60px; font-weight: 600;"> Mary </span><br> 
+                        Princess Alca.</h1>
+                        <a href="Alca-CV.pdf" download="Alca-CV.pdf" class="download-button">Download CV</a>
+        </div>
+        </div>
+        <!--ABOUT-->
+        <div id="about" class="section scrollspy">
+        <div class="row">
+            <div class="col s6">
+                <div class="container">
+                <img src="img/gradpic.png" class="materialboxed responsive-img about-img">
+                </div>
+            </div>
+        <div class="col s6">
+            <h3 class="left sub-title">About Me</h3><div style="height: 100px;"></div>
+            <p class="left">I'm a recent graduate of BS in Information Technology at City College of Calamba. I am passionate about technology and its potential to transform the world we live in. Below, you'll find details about my skills, experiences, educational background and awards.</p>
+
+            <ul class="tabs" style="background-color: transparent;" class="right hide-on-med-and-down">
+                <li class="tab col s3">
+                    <a href="#skills" style="background-color: transparent;" class="white-text">Skills</a></li>
+                <li class="tab col s3">
+                    <a href="#exp" style="background-color: transparent;" class="white-text">Experience</a></li>
+                <li class="tab col s3">
+                    <a href="#educ" style="background-color: transparent;" class="white-text">Education</a></li>
+                <li class="tab col s3">
+                    <a href="#awards" style="background-color: transparent;" class="white-text">Awards</a></li>
+            </ul>
+
+            <div id="skills" class="col s12">
+                <ul>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Web Developing</b></li>
+                        <li>HTML/CSS/JavaScript/Joomla-SPBuilder</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Graphic Designing</b></li>
+                        <li>Canva</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Video Editing</b></li>
+                        <li>Canva/Filmora</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Computer Literate</b></li>
+                        <li>Hardware, Software, Network Troubleshooting/Microsoft Office</li>
+                </ul>
+            </div>
+            <div id="exp" class="col s12">
+                <ul>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Cashier</b></li>
+                        <li>Dec 2020 - April 2021</li>
+                        <li>Felix Manpower and Janitorial Svcs., Inc.</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Counter Crew</b></li>
+                        <li>July 2021 - Feb 2022</li>
+                        <li>Racevenlyn Foods Inc. - Mang Inasal Parian</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Web Developing Intern</b></li>
+                        <li>Sep 2022 - June 2023</li>
+                        <li>City College of Calamba</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Graphic Design Intern</b></li>
+                        <li>Sep 2022 - June 2023</li>
+                        <li>City College of Calamba</li>
+                </ul>
+            </div>
+            <div id="educ" class="col s12">
+                <ul>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Primary</b></li>
+                        <li>Jose Rizal Memorial School</li>
+                        <li>2007-2013</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Secondary</b></li>
+                        <li>Laguna College of Business and Arts</li>
+                        <li>2013-2019</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Tertiary</b></li>
+                        <li>City College of Calamba</li>
+                        <li>Bachelor of Science in Information Technology</li>
+                        <li>2019-2023</li>
+                </ul>
+            </div>
+            <div id="awards" class="col s12">
+                <ul>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Institutional</b></li>
+                        <li>Service Award</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Departmental</b></li>
+                        <li>Service Award</li>
+                        <li>Academic Excellence Award (Rank 2)</li>
+                        <li>Best in Capstone - Inventory Management System for Camp Vicente Lim Integrated School</li>
+                        <br>
+                    <li class="red-text text-accent-4" style="font-weight: 500;"><b>Scholarship</b></li>
+                        <li>Iskolar ng Bayan</li>
+                        <li>Iskolar ng Laguna</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!--PORTFOLIO-->
+        <div id="portfolio" class="section scrollspy">
+            <div class="container">
+                <h3 class="sub-title">Portfolio</h3>
+                <div class="row">
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/cwd.png">
+                            </div>
+                            <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">CWD Batch 13<i class="material-icons right">more_vert</i></span>
+                            <p><a href="cwd-port.html" target="_blank" class="red-text text-accent-4">See More</a></p>
+                            </div>
+                            <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">CWD Batch 13<i class="material-icons right">close</i></span>
+                            <p class="black-text">Click 'See More' to explore a collection of projects created during the Creative Web Design Training from Batch 13, developed by none other than me, Mary Princess Alca.</p>
+                            <p class="black-text">These projects serve as compelling evidence of my successful journey in acquiring knowledge and honing my skills. They represent not just creative outputs, but also the tangible results of a learning process that I undertook with determination and enthusiasm.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/graphic.png">
+                            </div>
+                            <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Graphic Designs<i class="material-icons right">more_vert</i></span>
+                            <p><a href="gd.port.html" target="_blank" class="red-text text-accent-4">See More</a></p>
+                            </div>
+                            <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Graphic Designs<i class="material-icons right">close</i></span>
+                            <p class="black-text">Click 'See More' to view the projects I created during my graphic design internship at City College of Calamba. </p>
+
+                            <p class="black-text">These projects were used by our school and served as compelling evidence of my successful journey in acquiring knowledge and honing my skills as a graphic designer. They represent not just creative outputs but also the tangible results of a learning process that I undertook with determination and enthusiasm during my OJT.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/wdccc.png">
+                            </div>
+                            <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Web Design<i class="material-icons right">more_vert</i></span>
+                            <p><a href="https://ccc.edu.ph/" target="_blank" class="red-text text-accent-4">See More</a></p>
+                            </div>
+                            <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Web Design<i class="material-icons right">close</i></span>
+                            <p class="black-text"> Click 'See More' to view the City College of Calamba website where I actively participated in revising, updating, and improving content during my internship at City College of Calamba. I collaborated using Joomla-SPbuilder.</p>
+
+                            <p class="black-text">These contributions stand as a testament to my successful journey in acquiring knowledge and honing my skills in web design. They represent not just creative outputs but also the tangible results of the learning process I embraced with determination and enthusiasm during my OJT.</p>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--Contact-->
+        <div class="row" style="background-color: #131212;">
+        <div id="contact" class="section scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s5">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p style="margin-top: 30px;"><i class="fa-solid fa-paper-plane"></i> mhalca@yahoo.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +63 991 4802 369</p><br>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/mhalca" target="_blank" class="white-text">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.twitter.com/guitariri" target="_blank" class="white-text">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/zr.riri" target="_blank" class="white-text">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mary-princess-alca/" target="_blank" class="white-text">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/mhalca" target="_blank" class="white-text">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div><br>
+                        <a href="Alca-CV.pdf" download="Alca-CV.pdf" class="download-button">Download CV</a>
+                    </div>
+                </div>
+
+                <div class="col s7">
+                    <div style="height: 100px;"></div>
+                    <div class="contact-right">
+                        <form>
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                        <textarea id="message" name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button class="submit-button" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Sidenav Init-->
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav({
+                edge: 'left',
+            });
+        });
+    </script>
+
+    <!--Tabs Init-->
+    <script>
+    $(document).ready(function(){
+        $('.tabs').tabs({
+            duration: 100,
+        });
+    });
+    </script> 
+
+    <!--Materialbox Init-->
+    <script>
+        $(document).ready(function(){
+    $('.materialboxed').materialbox();
+        });
+    </script>
+
+    <!--Scroll Init-->
+    <script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' 
+        });
+    }</script>
+
+    <script>
+    window.addEventListener('scroll', function() {
+        var scrollToTopButton = document.getElementById('scrollToTopButton');
+        
+        if (window.scrollY >= 300) { 
+            scrollToTopButton.style.display = 'block';
+        } else {
+            scrollToTopButton.style.display = 'none';
+        }
+    });
+    </script>
+
+    </body>
+</html>

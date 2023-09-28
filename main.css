@@ -1,0 +1,169 @@
+body{
+    background: #000000; 
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #C60707;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 1s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 95vh;
+    background-image: url(img/background-pic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C60707;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+}
+
+.about-img{
+    width: 500px;
+    height: 180px;
+    border-radius: 5%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#portfolio {
+    padding: 30px 0;
+}
+
+.portfolio-list{
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax (250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.portfolio-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+}
+
+.contact-left p i{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #C60707;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #C60707;
+    transform: translateY(-5px);
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C60707;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+}
+
+#header-cwd{
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/cwd-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #C60707;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+.navigation ul li {
+    font-weight: 600;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.image-grid-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.image-grid-logo img {
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+}
+
+.image-grid-certs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.image-grid-certs img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
