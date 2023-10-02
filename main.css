@@ -173,10 +173,6 @@ form input, form textarea{
         text-align:center;
     }
 
-    .contact-left, .contact-right{
-        flex-basis: 100%;
-    }
-
     .sub-title-port{
         text-align: center;
     }
